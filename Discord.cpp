@@ -1,26 +1,3 @@
-// Example usage of the Discord Webhook C++ library
-//#include "Discord.h"
-//
-//int main() {
-//    const std::string webhook_url = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN";
-//    DiscordWebhook webhook(webhook_url);
-//
-//    webhook.setContent("Hello from C++!");
-//    webhook.setUsername("Bot");
-//    webhook.setAvatarUrl("https://example.com/avatar.png");
-//
-//    DiscordEmbed embed("Embed Title", "Embed Description");
-//    embed.setColor(0x00FF00);
-//    embed.setTimestamp();
-//
-//    webhook.addEmbed(embed);
-//
-//    webhook.execute();
-//
-//    return 0;
-//}
-
-
 #include "Discord.h"
 #include <windows.h>
 #include <winhttp.h>
